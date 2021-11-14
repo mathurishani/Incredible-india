@@ -1,0 +1,19 @@
+.flex-container{
+    display: flex;
+    padding: 10px;
+    min-width: 200px;
+   
+    margin: 50px;
+    /* flex-wrap: wrap; */
+    flex-basis: 25%;
+    /* justify-content: center; */
+    /* flex-direction: row; */
+    /* row-gap: 50px; */
+    
+}
+
+p{
+    text-align: justify;
+
+  width: 50px;
+}
