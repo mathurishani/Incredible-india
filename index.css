@@ -38,13 +38,13 @@ Flexbox Layout
 Additional Styling
 *******************************/
 
-body {
+html, body {
     margin: 0;
     font-family: Helvetica;
-    background: #ffffff;
+    background: #fff;
   }
- /* 
-  .header {
+ 
+/*  .header {
     padding: 10px 0;
     margin: 0 auto;
   }
@@ -59,7 +59,7 @@ body {
     overflow: hidden;
     box-shadow: #d3d0d0;
   }
-  */
+  
 
   #header
 	{
@@ -128,7 +128,7 @@ body {
 		background-color: rgb(236, 126, 22);
 		font-weight: 400;
 	}
-  
+  */
   .nav {
     list-style: none;
   }

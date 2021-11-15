@@ -1,12 +1,10 @@
-body{
-	margin:0px;
-	}
+
 	#header
 	{
 		width:100%;
 		float:left;
 		text-align:center;
-		position:fixed;
+		/*position:fixed;*/
 		background-color:#fff;
 	}
 	#logo
@@ -27,11 +25,6 @@ body{
 		transition:1s;
 		color:rgb(8, 6, 6);
 		font-family:cambria;
-	}
-	#logo h1:hover
-	{
-		color:rgb(236, 126, 22);
-		background-color: orange;
 	}
 	
 	#menu
