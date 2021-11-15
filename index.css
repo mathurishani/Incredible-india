@@ -10,7 +10,7 @@
  
 	#header
 	{
-		width:125%;
+		width: 110%;
 		float:left;
 		text-align:center;
 		/*position:fixed;*/
@@ -262,9 +262,9 @@ td{
 
 
 .footer{
-  width: 100%;
+  width: 110%;
 
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   background: linear-gradient(to right, #00093c, #2d0b00);
   color: #fff;
