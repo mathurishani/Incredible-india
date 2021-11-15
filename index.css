@@ -74,6 +74,10 @@ body {
   .nav li a:hover {
     color: rgba(255, 0, 0, 0.7);
   }
+
+  .rating .fa{
+    color: #f44336;
+  } 
   
   @media all and (min-width: 1030px) {
     .header {
