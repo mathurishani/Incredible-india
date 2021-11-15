@@ -35,7 +35,74 @@ footer{
   flex-basis: 25%;
   padding: 10px;
 }
+.col .fa{
+  color: #fff;
+}
 .logo{
   width: 80px;
   margin-bottom: 30px;
+}
+ul li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+form{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+
+form input{
+  width: 100%;
+  background: transparent;
+  color: #ccc;
+  border: 0;
+  outline: none;
+  
+}
+
+form textarea{
+  width: 100%;
+  background: transparent;
+  color: #ccc;
+  border: 0;
+  outline: none;
+}
+
+.col .msg{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+form button{
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover{
+  border: 1px solid #ccc;
+  background: #ccc;
+  transition: 1s;
+}
+.col{
+  
 }
