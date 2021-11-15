@@ -68,7 +68,7 @@ form{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc; */
   
 }
 
@@ -107,11 +107,13 @@ form button{
   cursor: pointer;
 }
 .hero-btn{
+  width: 90px;
+  height: 30px;
   display: inline-block;
   text-decoration: none;
   color: #fff;
   border: 1px solid #fff;
-  padding: 12px 34px;
+  padding: 2px 5px;
   font-size: 13px;
   background: transparent;
   position: relative;
@@ -121,4 +123,23 @@ form button{
   border: 1px solid #ccc;
   background: #ccc;
   transition: 1s;
+}
+
+div.icons{
+  display: table;
+  width: 200px;
+  table-layout: fixed;    /* For cells of equal size */
+}
+
+div.icons span{
+  display: table-cell;
+  text-align: center;
+}
+a{
+  color: #fff;
+}
+
+.connect{
+  text-align: center;
+  width: 200px;
 }
