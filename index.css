@@ -6,7 +6,7 @@
 Flexbox Layout
 *******************************/
 
-.header, .nav {
+/*.header, .nav {
     display: flex;
     flex-direction: column;
   }
@@ -43,14 +43,14 @@ body {
     font-family: Helvetica;
     background: #ffffff;
   }
-  
+ /* 
   .header {
     padding: 10px 0;
     margin: 0 auto;
   }
   
   .logo {
-    background: url("img.jpg") center center no-repeat;
+    background: url("final.jpg") center center no-repeat;
     width: 150px;
       min-height: 70px;
     background-size: contain;
@@ -59,6 +59,75 @@ body {
     overflow: hidden;
     box-shadow: #d3d0d0;
   }
+  */
+
+  #header
+	{
+		width:100%;
+		float:left;
+		text-align:center;
+		position:fixed;
+		background-color:#fff;
+	}
+	#logo
+	{
+		background: url("final.jpg") center center no-repeat;
+    width: 150px;
+      min-height: 70px;
+    background-size: contain;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+	width:30%;
+		float:left;
+  }
+	#logo h1
+	{
+		cursor:pointer;
+		transition:1s;
+		color:rgb(8, 6, 6);
+		font-family:cambria;
+	}
+	#logo h1:hover
+	{
+		color:rgb(236, 126, 22);
+		background-color: orange;
+	}
+	
+	#menu
+	{
+		float:left;
+		width:70%;
+	}
+	#menu ul
+	{
+		  margin-right: 10%;
+		  padding: 0;
+		  float:right;
+		  text-align: center;
+	}
+	#menu ul li
+	{
+	cursor:pointer;
+	list-style-type:none;
+	display:inline-block;
+	padding:8px;
+	}
+	
+	#menu ul li a
+	{
+	font-family:'Poppins',sans-serif;
+	text-decoration:none;
+	color:rgb(5, 3, 3);
+	font-weight: bolder;
+   font-size: 18px;
+	}
+	#menu ul li a:hover
+	{
+		color:rgb(0, 0, 0);
+		background-color: rgb(236, 126, 22);
+		font-weight: 400;
+	}
   
   .nav {
     list-style: none;
