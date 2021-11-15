@@ -296,3 +296,27 @@ body {
     }
   }
   
+
+  table{
+    margin-right: auto;
+    margin-left: auto;
+   
+    width: 100%;
+    
+}
+
+table a{
+    color: red;
+    text-decoration: none;
+}
+
+td{
+  text-align: center;
+}
+
+
+
+.tourism-links{
+  margin-right: auto;
+  margin-left: auto;
+}

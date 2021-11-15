@@ -1,9 +1,12 @@
 table{
     margin-right: auto;
     margin-left: auto;
-    }
+   
+    width: 100%;
+    
+}
 
-a{
+table a{
     color: red;
     text-decoration: none;
 }
@@ -19,11 +22,16 @@ body{
 } */
 
 td{
-
+    text-align: center;
 }
 
 h2{
     display: block;
+}
+
+.tourism-links{
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
