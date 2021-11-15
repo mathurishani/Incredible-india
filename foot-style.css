@@ -68,13 +68,8 @@ form{
   display: flex;
   align-items: center;
   justify-content: space-between;
-<<<<<<< HEAD
-  /* border-bottom: 1px solid #ccc; */
-  /* margin-bottom: 50px; */
-=======
   border-bottom: 1px solid #ccc;
   
->>>>>>> 7c7bb0f45497aa4fc8ca62c21501822242099511
 }
 
 form input{
