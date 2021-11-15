@@ -259,3 +259,139 @@ td{
   margin-right: auto;
   margin-left: auto;
 }
+
+
+.footer{
+  width: 100%;
+
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to right, #00093c, #2d0b00);
+  color: #fff;
+  padding: 100px 0 30px;
+  border-top-left-radius: 125px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.footer .row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer .row .col{
+  flex-basis: 25%;
+  padding: 10px;
+}
+.footer .row .col .fa{
+  color: #fff;
+}
+.footer .row .col .logo{
+  width: 200px;
+  height: 100px;
+  margin-bottom: 30px;
+  border-radius: 50px;
+}
+.footer .row .icons .fa{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.footer .row .col ul li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+.footer .row .col ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer .row .col form{
+  /* padding-bottom: 15px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1px solid #ccc; */
+  
+}
+
+.footer .row .col form input{
+  width: 50%;
+  background: transparent;
+  color: #ccc;
+  border: 0;
+  outline: none;
+  
+}
+
+.footer .row .col form textarea{
+  width: 100%;
+  background: transparent;
+  color: #ccc;
+  border: 0;
+  outline: none;
+}
+
+.footer .row .col .form-attributes{
+  height: 30px;
+  background-color: transparent;
+  border: solid 1px gray;
+}
+
+.footer .row .col .msg{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.footer .row .col form button{
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.footer .row .col .hero-btn{
+  width: 90px;
+  height: 30px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 2px 5px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.footer .row .col .hero-btn:hover{
+  border: 1px solid #ccc;
+  background: #ccc;
+  transition: 1s;
+}
+
+.footer .row .col div.icons{
+  display: table;
+  width: 200px;
+  table-layout: fixed;    /* For cells of equal size */
+}
+
+.footer .row .col div.icons span{
+  display: table-cell;
+  text-align: center;
+}
+.footer .row .col .icons a{
+  color: #fff;
+}
+
+.footer .row .col.connect{
+  text-align: center;
+  width: 200px;
+}

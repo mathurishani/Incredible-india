@@ -43,6 +43,7 @@ footer{
   width: 200px;
   height: 100px;
   margin-bottom: 30px;
+  border-radius: 50px;
 }
 .icons .fa{
   width: 40px;
