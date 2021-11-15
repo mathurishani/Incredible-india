@@ -1,0 +1,29 @@
+table{
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+a{
+    color: red;
+    text-decoration: none;
+}
+html{
+    display: block;
+    height: 100%;
+}
+body{
+    height: 80%;
+}
+/* a :hover{
+    color: black;
+} */
+
+td{
+
+}
+
+h2{
+    display: block;
+}
+
+
