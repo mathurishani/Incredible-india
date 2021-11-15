@@ -1,7 +1,7 @@
 
 	#header
 	{
-		width:100%;
+		width:125%;
 		float:left;
 		text-align:center;
 		/*position:fixed;*/
@@ -10,7 +10,7 @@
 	#logo
 	{
 		background: url("final.jpg") center center no-repeat;
-    width: 150px;
+    width: 180px;
       min-height: 70px;
     background-size: contain;
     text-indent: 100%;

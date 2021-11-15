@@ -2,77 +2,24 @@
   scroll-behavior: smooth;
  }
  
- /******************************
-Flexbox Layout
-*******************************/
-
-/*.header, .nav {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .header {
-    justify-content: space-between;
-    box-shadow: rgba(206, 202, 202, 0.7);
-  }
-  
-  .nav {
-    flex: 1;
-    justify-content: space-around;
-  }
-  
-  @media all and (min-width: 670px) {
-    .header, .nav {
-      flex-direction: row;
-    }
-  }
-  
-  @media all and (min-width: 1030px) {
-    .nav {
-      flex: none;
-    }
-  }
-
-  
-  /******************************
-Additional Styling
-*******************************/
-
-html, body {
+ body {
     margin: 0;
     font-family: Helvetica;
     background: #fff;
   }
  
-/*  .header {
-    padding: 10px 0;
-    margin: 0 auto;
-  }
-  
-  .logo {
-    background: url("final.jpg") center center no-repeat;
-    width: 150px;
-      min-height: 70px;
-    background-size: contain;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    box-shadow: #d3d0d0;
-  }
-  
-
-  #header
+	#header
 	{
-		width:100%;
+		width:125%;
 		float:left;
 		text-align:center;
-		position:fixed;
+		/*position:fixed;*/
 		background-color:#fff;
 	}
 	#logo
 	{
 		background: url("final.jpg") center center no-repeat;
-    width: 150px;
+    width: 180px;
       min-height: 70px;
     background-size: contain;
     text-indent: 100%;
@@ -87,11 +34,6 @@ html, body {
 		transition:1s;
 		color:rgb(8, 6, 6);
 		font-family:cambria;
-	}
-	#logo h1:hover
-	{
-		color:rgb(236, 126, 22);
-		background-color: orange;
 	}
 	
 	#menu
@@ -128,7 +70,9 @@ html, body {
 		background-color: rgb(236, 126, 22);
 		font-weight: 400;
 	}
-  */
+
+	
+
   .nav {
     list-style: none;
   }
@@ -160,12 +104,7 @@ html, body {
   }
 
   
-  footer{
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    
-  }
+  
   .main-content{
     display: flex;
   }
