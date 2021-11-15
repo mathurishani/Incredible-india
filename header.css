@@ -1,7 +1,7 @@
 
 	#header
 	{
-		width:110%;
+		width:122%;
 		float:left;
 		text-align:center;
 		/*position:fixed;*/
@@ -64,7 +64,7 @@
 
 
 	.footer{
-		width: 110%;
+		width: 122%;
 		bottom: 0;
 		background: linear-gradient(to right, #00093c, #2d0b00);
 		color: #fff;
