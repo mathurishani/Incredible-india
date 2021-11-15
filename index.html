@@ -10,11 +10,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+   
     
   </head>
   
     <body>
+
+      <!-----------HEADER----------->
         <header class="header">
             <h1 class="logo">LOgo</h1>
             <ul class="nav">
@@ -25,6 +27,8 @@
                 <li><a href="forts.html">Fort</a></li>
             </ul>
       </header>
+
+      <!-----------VIDEO---------->
       <section>
       <center>
         <video width=80% height=500px preload="auto" controls autoplay loop>
@@ -35,7 +39,9 @@
     <br><br>
   </section>
 
-    <section>
+
+  <!-----------POPULAR DESTINATIONS----------->
+    <section id="PopDest">
       <h2>Popular Destinations</h2>
       <div class="slider owl-carousel">
         <div class="card">
@@ -253,15 +259,22 @@
       
     </section>
     <br><br>
-    <section class="map">
+
+    <!-----------MAP----------->
+    <section class="map" id="states">
       <img src="indiaMAP.jpeg" >
     </section>
-
+<br><br><br>
 <!-----------FOOTER----------->
 
-    <footer>
 
-    </footer>
+   <section class="footer">
+   <a href="#PopDest">Popular Destinations</a><br>
+   <a href="#states">States Of India</a>
+</section>
+ 
+
+    <!-----------JAVASCRIPT----------->
     <script>
       $(".slider").owlCarousel({
         loop: true,
